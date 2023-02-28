@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="game">
+
+    <h1>Rock-Paper-Scissor</h1>
+
+    <div class="scores">
+        <div class="playerscore">
+            <h2>player score:</h2>
+            <p id="playerscore">0</p>
+        </div>
+        <div class="computerscore">
+            <h2>computer score:</h2>
+            <p id="computerscore">0</p>
+        </div>
+    </div>
+
+    <div class="display-choices">
+        <div class="display-player__choices"></div>
+        <div class="display-computer__choices"></div>
+    </div>
+
+    <div class="options">
+        <button class="rock" id="game-options__rock" value="0"><img src="./assets/rock.png" alt=""></button>
+        <button class="paper" id="game-options__paper" value="1"><img src="./assets/paper.png" alt=""></button>
+        <button class="scissor" id="game-options__scissor" value="2"><img src="./assets/scissor.png" alt=""></button>
+    </div>
+
+    <div class="result">
+        <h2>result</h2>
+        <p id="game-result__display"></p>
+    </div>
+
+    <button class="reload" id="game-reload">reload</button>
+
+    </section>
+    <script src="./javascript/working.js"></script>
+</body>
+</html>
